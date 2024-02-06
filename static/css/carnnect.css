@@ -1,0 +1,26 @@
+.intro-image-half {
+    flex: 1 1 50%; /* 设置为当前宽度的一半 */
+    max-width: 640px; /* 你想要的最大宽度 */
+
+  }
+
+.intro-image-half img{
+    width: 100%; 
+    height: auto;
+    background-color: var(--grey-color);
+    margin-bottom: 20px;
+  }
+
+.intro-image-whole {
+    flex: 1 1 1280px;
+    max-width: 1280px;
+    margin-left: auto;
+    margin-right: auto; 
+  }
+
+  .intro-image-whole img{
+    width: 100%; 
+    height: auto;
+    background-color: var(--grey-color);
+    margin-bottom: 20px;
+  }
